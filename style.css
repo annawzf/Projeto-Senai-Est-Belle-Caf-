@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    margin: auto;
+    padding: 0px;
+    background-color: #ffe6a7;
+    text-align: center;
+    width: auto;
+    height: 100%;
+    font-family: Poppins;
+  }
+  
+  .cabecalho {
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-between;
+    padding: 25px;
+    width: auto;
+    height: 158;
+  }
+  
+  a {
+    font-size: 20px;
+    color: #d67f2e;
+  
+    margin-right: 10px;
+    text-decoration: none;
+  }
+  
+  
+  
+  .logos {
+    width: 85px;
+    height: 85px;
+  }
+  
+
+  .container {
+    max-width: 700px;
+    margin: 50px auto;
+    padding: 15px;
+    background: white;
+    border-radius: 5px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    padding-bottom: 40px;
+}
+
+h1, h2 {
+    color: #d67f2e;
+}
+
+h1 {
+    text-align: center;
+}
+
+p {
+    line-height: 1.6;
+    color: #555;
+}
